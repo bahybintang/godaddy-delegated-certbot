@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+LABEL maintainer="bahybintang@gmail.com"
+
 ARG DEBIAN_FRONTEND=noninteractive
 
 ENV TERM=xterm
